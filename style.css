@@ -1,0 +1,51 @@
+.container {
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  color: rgb(198, 196, 196);
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background-color: #c0412b;
+  padding: 3% 6%;
+  border-radius: 5px;
+  height: auto;
+}
+.container h1 {
+  font-size: 1.6rem;
+  text-decoration: underline;
+}
+.container h2 {
+  font-size: 1.4rem;
+}
+.container button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+@media (max-width: 760px) {
+  .container {
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    color: rgb(198, 196, 196);
+    transform: translate(-50%, -50%);
+    width: 80%;
+    background-color: #c0412b;
+    padding: 3% 6%;
+    border-radius: 5px;
+    height: auto;
+  }
+  .buttonss {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container button {
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+  .container h1 {
+    font-size: 1.4rem;
+    text-decoration: underline;
+  }
+}
